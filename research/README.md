@@ -1,13 +1,13 @@
-# Research Notes
+# Research workspace
 
-This directory contains the working evidence for the project.
+This directory contains the working evidence model, methodology, hypotheses, sources, and test templates used by the project.
 
-- `evidence-matrix.md` tracks claims and evidence.
-- `sources.md` lists the main references.
-- `methodology.md` explains how claims are checked.
-- `network-testing.md` describes controlled client-side testing.
-- `hypotheses.md` contains testable ideas.
-- `unanswered-questions.md` contains open research questions.
-- `observations/` is reserved for actual test results.
+Start with:
 
-Do not put secrets or private captures here.
+- [Evidence matrix](evidence-matrix.md)
+- [Sources](sources.md)
+- [Methodology](methodology.md)
+- [Network testing](network-testing.md)
+- [Hypotheses](hypotheses.md)
+- [Unanswered questions](unanswered-questions.md)
+- [TEST-001 template](observations/test-001-template.md)
