@@ -1,0 +1,26 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*token*
+*secret*
+
+# Browser/network captures - do not commit raw captures
+*.har
+*.pcap
+*.pcapng
+
+# Python/tooling
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

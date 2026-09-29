@@ -1,0 +1,6 @@
+flowchart TD
+    A[User / Developer] --> B[Google Gemini Product or API]
+    B --> C[Gemini processing]
+    B -. when used .-> E[Gemini Files API]
+    E --> F[File storage]
+    C --> D[Response / generated media]

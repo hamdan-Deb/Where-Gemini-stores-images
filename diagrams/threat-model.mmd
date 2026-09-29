@@ -1,0 +1,11 @@
+flowchart LR
+    U[User] --> APP[Application]
+    APP --> AI[AI provider]
+    AI --> INF[Inference infrastructure]
+    AI --> ST[Temporary result / storage]
+
+    ATT[External attacker] -.-> APP
+    ATT -.-> AI
+    ATT -.-> ST
+    INS[Compromised account or insider] -.-> AI
+    SUP[Supply-chain compromise] -.-> INF

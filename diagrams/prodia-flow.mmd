@@ -1,0 +1,7 @@
+flowchart TD
+    A[Application] --> B[Prodia API]
+    B --> C[Prodia Gemini image endpoint]
+    C --> D[Image generation / editing]
+    D --> E[Result]
+    B -. async workflow .-> F[Async job]
+    F -. documented expiry .-> G[One hour]

@@ -1,0 +1,7 @@
+flowchart LR
+    U[User] -->|Email / sign-in| IDP[Stytch if confirmed]
+    IDP -->|Auth result / session| APP[Prodia application]
+    U -->|Prompt + image| API[Prodia API]
+    APP --> API
+    API --> INF[Inference workflow]
+    INF --> OUT[Generated output]

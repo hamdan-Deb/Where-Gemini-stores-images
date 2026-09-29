@@ -1,0 +1,18 @@
+flowchart TD
+    U[User]
+    G[First-party Gemini product]
+    GA[Gemini API]
+    GF[Gemini Files API]
+    P[Prodia API]
+    PG[Prodia Gemini image endpoint]
+    ST[Stytch if observed in the tested login flow]
+
+    U --> G
+    U --> GA
+    GA -. optional workflow .-> GF
+    U --> P
+    P --> PG
+    U --> ST
+    ST -. authentication .-> P
+
+    G -. not established by public evidence .-> P
