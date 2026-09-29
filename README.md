@@ -347,7 +347,7 @@ The repository description should be:
 
 > Independent cybersecurity research into Gemini image handling, Prodia infrastructure, authentication, retention, data flows, and third-party AI security.
 
-See [`docs/github-repository-setup.md`](docs/github-repository-setup.md) for the exact GitHub metadata and social-preview setup.
+See [`docs/github-repository-setup.md`](docs/github-repository-setup.md) for the exact GitHub metadata and social-preview setup, or run [`scripts/set-github-metadata.ps1`](scripts/set-github-metadata.ps1) after authenticating with GitHub CLI.
 
 ---
 
