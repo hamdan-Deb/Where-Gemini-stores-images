@@ -24,10 +24,9 @@
 
 ![Gemini image infrastructure research banner](assets/research-banner.png)
 
-> **Research type:** independent security research and public-source investigation  
-> **Status:** active  
-> **Last reviewed:** 29 September 2026  
-> **Author:** [Your Name / GitHub Handle]
+> **Research type:** independent 
+> **Status:** active   
+> **Author:** hamdan
 
 ## Why this repository exists
 
